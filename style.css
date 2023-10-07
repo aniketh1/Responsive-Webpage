@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 body{
     background-color: black;
 }
@@ -14,7 +15,7 @@ body > p {
     font-size: 70px;
     padding-top: 0px;
     padding-left: 20px;
-    font-family: fantasy;
+    font-family: 'Anton', sans-serif;
 }
 div{
     color: white;
@@ -82,7 +83,7 @@ body > p {
     font-size: 70px;
     padding-top: 0px;
     padding-left: 20px;
-    font-family: fantasy;
+    font-family: 'Anton', sans-serif;
     text-align: center;
 }
 }
