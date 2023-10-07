@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: orangered;
+    padding: 20px;
+    padding-bottom: 0px;
+    font-size: 50px;
+}
+body > p {
+    font-size: xx-large;
+    color: orange;
+    font-size: 70px;
+    padding-top: 0px;
+    padding-left: 20px;
+    font-family: fantasy;
+}
+div{
+    color: white;
+    width: 600px;
+    padding: 20px;
+}
+img{
+    height: 200px;
+    padding: 10px;
+}
+.left{
+    float: left;
+    display: inline;
+}
+.right{
+    float: right;
+    display: inline;
+}
+.left > img{
+    float: left;
+    
+
+}
+.right > img{
+    float: left;
+}
+p{
+    text-align: justify;
+    padding: 10px;
+}
+@media(max-width:600px){
+    h1{
+        text-align: center;
+    }
+.left > img{
+    float: none;
+    
+
+}
+.right > img{
+    float: none;
+} 
+    
+.left{
+    
+    display: block;
+}
+.right{
+    float: left;
+    display: block;
+}
+img{
+    height: 184px;
+    padding: 10px;
+}
+div{
+    color: white;
+    width: 288px;
+    padding: 20px;
+    padding-left: 10px;
+}
+body > p {
+    font-size: xx-large;
+    color: orange;
+    font-size: 70px;
+    padding-top: 0px;
+    padding-left: 20px;
+    font-family: fantasy;
+    text-align: center;
+}
+}
